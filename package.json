@@ -1,0 +1,27 @@
+{
+  "name": "abc-plugin-vegemite",
+  "version": "0.1.0",
+  "description": "Allows the ABC API to use Vegemite as the local state management framework.",
+  "main": "dist/cjs/index.js",
+  "scripts": {
+    "autoindex": "yarn do autoindex",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forest-fire/abc-plugin-vegemite.git"
+  },
+  "keywords": [
+    "abc",
+    "vegemite"
+  ],
+  "author": "Ken Snyder <ken@ken.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/forest-fire/abc-plugin-vegemite/issues"
+  },
+  "homepage": "https://github.com/forest-fire/abc-plugin-vegemite#readme",
+  "dependencies": {
+    "vegemite": "^1.0.0"
+  }
+}
